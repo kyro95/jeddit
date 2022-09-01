@@ -1,6 +1,8 @@
 # **jeddit**
 📕 The minimal and reddit like forum
 
+![Image info](https://i.imgur.com/PvCA5SN.png)
+
 ## Install
 ```bash
 git clone https://github.com/kyro95/jeddit.git
@@ -8,7 +10,6 @@ cd reddit
 npm install
 npx prisma db push
 ```
-
 ## Setup
 1. Create a **.env** file on root directory
 ```env
