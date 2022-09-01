@@ -1,0 +1,37 @@
+{
+  "name": "jeddit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.2.1",
+    "awesome-toast-component": "^2.0.0",
+    "bson": "^4.7.0",
+    "daisyui": "^2.24.0",
+    "next": "12.2.5",
+    "next-auth": "^4.10.3",
+    "passport-github": "^1.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "remixicon": "^2.5.0",
+    "theme-change": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.13",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "autoprefixer": "^10.4.8",
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5",
+    "postcss": "^8.4.16",
+    "postcss-preset-env": "^7.8.0",
+    "prisma": "^4.2.1",
+    "tailwindcss": "^3.1.8",
+    "typescript": "4.8.2"
+  }
+}

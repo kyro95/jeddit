@@ -1,0 +1,37 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Account {
+  id Int @default(autoincrement()) @unique
+  username String @unique
+  creationDate DateTime
+}
+
+model Category {
+  id Int @default(autoincrement()) @unique
+  name String @unique
+}
+
+model Post {
+  id Int @default(autoincrement()) @unique
+  categoryId Int
+  author String
+  title String
+  text String
+}
+
+model Vote {
+  id Int @default(autoincrement()) @unique
+  categoryID Int
+  postId Int
+  name String
+}
